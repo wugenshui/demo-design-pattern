@@ -18,5 +18,10 @@ public class App {
         HungrySingleton hungrySingleton2 = HungrySingleton.getInstance();
         System.out.println(hungrySingleton1);
         System.out.println(hungrySingleton2);
+
+        DoubleCheckSingleton doubleCheckSingleton1 = DoubleCheckSingleton.getInstance();
+        DoubleCheckSingleton doubleCheckSingleton2 = DoubleCheckSingleton.getInstance();
+        System.out.println(doubleCheckSingleton1);
+        System.out.println(doubleCheckSingleton2);
     }
 }
